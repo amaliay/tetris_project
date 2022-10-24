@@ -47,10 +47,5 @@ bps = "https://www.bps.go.id/"
 kbli = "https://oss.go.id/informasi/kbli-kode?kode=L"
 ojk = "https://www.ojk.go.id/id/kanal/pasar-modal/regulasi/peraturan-ojk/Documents/Pages/POJK-Nomor-18.POJK.04.2016/SAL%20-%20POJK%20DIRE.pdf"
 
-# st.markdown("<h6 style='text-align: justify;'>Referensi [link]</h6>")
-# st.markdown("<h6 style='text-align: justify;'>1. [BPS](%s)</h6>" % bps, unsafe_allow_html=True)
-# st.markdown("<h6 style='text-align: justify;'>1. [KBLI](%s)</h6>" % kbli, unsafe_allow_html=True)
-# st.markdown("<h6 style='text-align: justify;'>1. [OJK](%s)</h6>" % ojk, unsafe_allow_html=True)
-
 st.markdown("<h6 style='text-align: justify;'>\nReferensi:</h6>", unsafe_allow_html=True)
 st.write("1. [BPS](%s)\n" % bps , "2. [KBLI](%s)\n" % kbli, "3. [OJK](%s)\n" % ojk)
